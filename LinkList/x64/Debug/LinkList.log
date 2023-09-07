@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\Code\Algorithm\LinkList\Source.cpp(26,6): warning C4101: 'ele': unreferenced local variable
+D:\Code\Algorithm\LinkList\Source.cpp(39): warning C4715: 'Find': not all control paths return a value
+  LinkList.vcxproj -> D:\Code\Algorithm\LinkList\x64\Debug\LinkList.exe
