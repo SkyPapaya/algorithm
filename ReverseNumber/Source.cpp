@@ -1,96 +1,61 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-int sum = -2;
+int mergeSort(int arr[], int temp[], int left, int right);
+int merge(int arr[], int temp[], int left, int mid, int right);
 
-int spaceOfNum(int target) {
-    int sum = 0;
-    while (target >= 1) {
-        target /= 10;
-        sum++;
-    }
-    return sum;
+int countInversions(int arr[], int n) {
+    int* temp = (int*)malloc(sizeof(int) * n);
+    return mergeSort(arr, temp, 0, n - 1);
 }
 
-int* transformNum(int target, int* cap) {
-    int summary = 0;
-    int index = spaceOfNum(target) - 1;
-    while (target >= 1) {
-        cap[index - summary] = target % 10;
-        target /= 10;
-        summary++;
+int mergeSort(int arr[], int temp[], int left, int right) {
+    int mid, inv_count = 0;
+    if (right > left) {
+        mid = (left + right) / 2;
+
+        inv_count += mergeSort(arr, temp, left, mid);
+        inv_count += mergeSort(arr, temp, mid + 1, right);
+        inv_count += merge(arr, temp, left, mid + 1, right);
     }
-    cap = (int*)malloc(sizeof(int) * summary);
-    return cap;
+    return inv_count;
 }
 
-void reverseNumber(int* source, int* tem, int left, int right) {
-    if (left >= right) {
-        return;
-    }
+int merge(int arr[], int temp[], int left, int mid, int right) {
+    int i, j, k;
+    int inv_count = 0;
 
-    int mid = (left + right) / 2;
-    reverseNumber(source, tem, left, mid);
-    reverseNumber(source, tem, mid + 1, right);
+    i = left;      // å·¦å­æ•°ç»„çš„èµ·å§‹ç´¢å¼•
+    j = mid;       // å³å­æ•°ç»„çš„èµ·å§‹ç´¢å¼•
+    k = left;      // åˆå¹¶åæ•°ç»„çš„èµ·å§‹ç´¢å¼•
 
-    int begin1 = left, end1 = mid;
-    int begin2 = mid + 1, end2 = right;
-    int index = begin1;
-
-    while (begin1 <= end1 && begin2 <= end2) {
-        if (source[begin1] <= source[begin2]) {
-            tem[index] = source[begin1];
-            begin1++;
-            sum++;
-            index++;
+    while ((i <= mid - 1) && (j <= right)) {
+        if (arr[i] <= arr[j]) {
+            temp[k++] = arr[i++];
         }
         else {
-            tem[index] = source[begin2];
-            begin2++;
-            index++;
-            sum++;
+            temp[k++] = arr[j++];
+            inv_count += (mid - i);  // è®¡ç®—é€†åºæ•°
         }
     }
 
-    while (begin1 <= end1) {
-        tem[index] = source[begin1];
-        begin1++;
-        index++;
-        sum++;
-    }
+    while (i <= mid - 1)
+        temp[k++] = arr[i++];
 
-    while (begin2 <= end2) {
-        tem[index] = source[begin2];
-        begin2++;
-        index++;
-        sum++;
-    }
+    while (j <= right)
+        temp[k++] = arr[j++];
 
-    for (int i = left; i <= right; i++) {
-        source[i] = tem[i];
-    }
+    for (i = left; i <= right; i++)
+        arr[i] = temp[i];
+
+    return inv_count;
 }
 
 int main() {
-    int target;
-    printf("ÇëÊäÈëÒªÅĞ¶ÏµÄÊı¾İ\n");
-    scanf_s("%d", &target);
-    int* source = (int*)malloc(sizeof(int) * spaceOfNum(target));
-    int* temp = (int*)malloc(sizeof(int) * spaceOfNum(target));
-
-    transformNum(target, source);
-
-    reverseNumber(source, temp, 0, spaceOfNum(target) - 1);
-
-    if (sum == -2) {
-        return 0;
-    }
-    printf("ÄæĞòÊı¶Ô¶ÔÊıÎª£º%d\n", sum);
-    for (int i = 0; i < spaceOfNum(target); i++) {
-        printf("%d", source[i]);
-    }
-
-    
+    int arr[] = { 1,9,8,7,6,5,3,2,4 };
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int inversions = countInversions(arr, n);
+    printf("Number of inversions: %d\n", inversions);
 
     return 0;
 }
