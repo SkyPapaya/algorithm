@@ -52,7 +52,7 @@ int merge(int arr[], int temp[], int left, int mid, int right) {
 }
 
 int main() {
-    int arr[] = { 1,9,8,7,6,5,3,2,4 };
+    int arr[] = {3 , 8 , 1 , 6 , 5 , 4, 7 , 2 , 9 };
     int n = sizeof(arr) / sizeof(arr[0]);
     int inversions = countInversions(arr, n);
     printf("Number of inversions: %d\n", inversions);
