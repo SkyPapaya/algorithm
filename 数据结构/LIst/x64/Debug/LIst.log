@@ -1,5 +1,4 @@
 ﻿  源.cpp
-D:\Code\Algorithm\数据结构\LIst\源.cpp(50,9): warning C4101: “j”: 未引用的局部变量
-D:\Code\Algorithm\数据结构\LIst\源.cpp(348,9): warning C4101: “x”: 未引用的局部变量
-D:\Code\Algorithm\数据结构\LIst\源.cpp(347,9): warning C4101: “i”: 未引用的局部变量
+D:\Code\Algorithm\数据结构\LIst\源.cpp(49,9): warning C4101: 'j': unreferenced local variable
+D:\Code\Algorithm\数据结构\LIst\源.cpp(116,9): warning C4101: 'j': unreferenced local variable
   LIst.vcxproj -> D:\Code\Algorithm\数据结构\LIst\x64\Debug\LIst.exe

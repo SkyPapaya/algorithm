@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\Code\Algorithm\TrueorFlase\Source.cpp(30): warning C4715: 'f': not all control paths return a value
+  TrueorFlase.vcxproj -> D:\Code\Algorithm\TrueorFlase\x64\Debug\TrueorFlase.exe

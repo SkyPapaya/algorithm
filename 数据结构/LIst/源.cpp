@@ -3,7 +3,6 @@
 #include<stddef.h>
 
 typedef struct Node {
-
     int element;
     struct Node* link;
 }Node;
@@ -86,8 +85,8 @@ int Insert(Node* node, int index, int target) {
 int Delete(Node* node, int index) {
     Node* before;
     Node* after;
-    before = L->head;
-    after = L->head;
+    before = node;
+    after = node;
 
     //如果删除的是头节点
     if (index == 0)
@@ -374,7 +373,7 @@ int Reversed(HeaderList* L) {
      printf("\n");
  }
 
-
+ //多项式的加法
  Polynomial addPolynomials(const Polynomial* poly1, const Polynomial* poly2) {
      int total_terms = poly1->num_terms + poly2->num_terms;
      Polynomial result;
@@ -430,9 +429,6 @@ int Reversed(HeaderList* L) {
 
 
 int main() {
-
-    int i;
-    int x;
     HeaderList headerList;
     Init(&headerList );
     for (int i = 0; i < 9; i++) {
@@ -487,7 +483,7 @@ int main() {
     displayPolynomial(&poly2);
 
     // 计算多项式相乘
-    printf("多项式相乘：");
+    printf("多项式相乘:\n");
     result = multiplyPolynomials(&poly1, &poly2);
 
     // 显示结果多项式
@@ -495,6 +491,7 @@ int main() {
     displayPolynomial(&result);
 
     //计算多项式相加
+    printf("多项式相加:\n");
     printf("Result: ");
     result = addPolynomials(&poly1, &poly2);
     displayPolynomial(&result);
@@ -504,11 +501,6 @@ int main() {
     destroyPolynomial(&poly2);
     destroyPolynomial(&result);
     
-
-
-
-
-
     return 0;
 
 }
