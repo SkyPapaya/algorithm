@@ -1,0 +1,3 @@
+﻿  源.cpp
+D:\Code\Algorithm\MapProjection\源.cpp(131,9): warning C4101: “p”: 未引用的局部变量
+D:\Code\Algorithm\MapProjection\源.cpp(138): warning C4715: “Insert”: 不是所有的控件路径都返回值
