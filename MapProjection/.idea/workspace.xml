@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad58ce90-ac0e-4bc7-ad12-3435d5ca9aa1" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/../DiscreteMathematicsJudegment/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DiscreteMathematicsProjectThree/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiscreteMathematics/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DiscreteMathematics/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiscreteMathematics/src/main/java/model/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DiscreteMathematics/src/main/java/model/Expression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiscreteMathematics/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DiscreteMathematics/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiscreteMathematics/target/classes/model/Expression.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DiscreteMathematics/target/classes/model/Expression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/MapProjection/FileContentIndex/97f97f60-3566-40a0-ac48-91f332973f1c.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/MapProjection/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MapProjection/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/MapProjection/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MapProjection/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapProjection.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/MapProjection.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapProjection.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/MapProjection.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/MapProjection.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/MapProjection.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/MapProjection.log" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/MapProjection.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/MapProjection.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/MapProjection.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/MapProjection.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/MapProjection.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/MapProjection.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/MapProjection.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/MapProjection.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/MapProjection.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/MapProjection.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/MapProjection.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/MapProjection.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/MapProjection.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/源.obj" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/源.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/源.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/源.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据结构/LIst/.vs/LIst/FileContentIndex/320b2a5b-2b55-4ed1-955d-4becae608582.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据结构/LIst/.vs/LIst/FileContentIndex/c31e980e-27ec-4f2c-b251-f6ab0802b15d.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据结构/LIst/.vs/LIst/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../数据结构/LIst/.vs/LIst/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据结构/LIst/.vs/LIst/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../数据结构/LIst/.vs/LIst/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据结构/LIst/x64/Debug/LIst.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../数据结构/LIst/x64/Debug/LIst.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据结构/LIst/x64/Debug/LIst.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../数据结构/LIst/x64/Debug/LIst.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据结构/LIst/x64/Debug/LIst.log" beforeDir="false" afterPath="$PROJECT_DIR$/../数据结构/LIst/x64/Debug/LIst.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据结构/LIst/x64/Debug/LIst.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../数据结构/LIst/x64/Debug/LIst.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据结构/LIst/x64/Debug/LIst.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../数据结构/LIst/x64/Debug/LIst.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据结构/LIst/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../数据结构/LIst/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据结构/LIst/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../数据结构/LIst/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据结构/LIst/x64/Debug/源.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../数据结构/LIst/x64/Debug/源.obj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2ZnmN5iYHV0iwwKAjp258Qo7Dg6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Code/Algorithm/MapProjection",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="ad58ce90-ac0e-4bc7-ad12-3435d5ca9aa1" name="更改" comment="" />
+      <created>1703066175208</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703066175208</updated>
+      <workItem from="1703066176255" duration="172000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

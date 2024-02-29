@@ -7,9 +7,11 @@ public class Main {
 
         Stack<Character> expressions = new Stack<>();
         int numberOfVariable = 3;
+        int time = (int) Math.pow(2, numberOfVariable);
         char char1 = 'P';
         char char2 = 'Q';
-        String input = ">P&PQ";
+        char char3 = 'R';
+        String input = ">P<PQ";
 
         //在这里定义每个运算符的输入
         //|或
@@ -34,7 +36,7 @@ public class Main {
         expressionTemplate.setOperator(expressions.pop());
         //System.out.println(expressionTemplate);
 
-        boolean tempTable[] = new boolean[4];
+        boolean tempTable[] = new boolean[time];
         //同步暂存的真值表
         for (int i = 0; i < tempTable.length; i++) {
             tempTable[i] = expressionTemplate.getTempTable()[i];
@@ -51,7 +53,8 @@ public class Main {
         String principalDisjunctive = "";
         String principalConjunctive = "";
         //得到主析取范式和主合取范式
-        for (int i = 0; i < 4; i++) {
+
+        for (int i = 0; i < time; i++) {
 
             if (!expressionFinal.getTempTable()[i]) {
                 switch (i) {
@@ -67,6 +70,8 @@ public class Main {
                     case 3:
                         principalDisjunctive += "(P&Q)|";
                         break;
+                    default:
+                        principalDisjunctive += "";
                 }
 
             } else {
@@ -83,6 +88,8 @@ public class Main {
                     case 3:
                         principalConjunctive += "(~P|~Q)&";
                         break;
+                    default:
+                        principalDisjunctive += "";
                 }
 
             }
@@ -90,7 +97,7 @@ public class Main {
         System.out.print("主析取范式：");
         System.out.println(principalDisjunctive.substring(0, principalDisjunctive.length() - 1));
         System.out.print("主合取范式：");
-        System.out.println(principalConjunctive.substring(0,principalConjunctive.length() - 1));
+        System.out.println(principalConjunctive.substring(0, principalConjunctive.length() - 1));
 
     }
 }

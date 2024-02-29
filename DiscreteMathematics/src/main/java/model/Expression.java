@@ -9,7 +9,7 @@ public class Expression {
     int rightValue;
     char operator;
     //用来存储得到的暂时的真值
-    boolean tempTable[] = new boolean[4];
+    boolean tempTable[] = new boolean[8];
     int count = 0;
     //存放完整表达式
     String content;
